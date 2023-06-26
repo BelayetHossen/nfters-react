@@ -10,7 +10,7 @@ const Collection = () => {
                         <h3 className="text-2xl font-extrabold uppercase mb-8">Collection Featured NFTs</h3>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-                            <div className="">
+                            <div className="hover:bg-white hover:shadow-xl hover:scale-105 transition duration-500 p-3 rounded-xl">
                                 <div className="flex justify-between gap-3">
                                     <img
                                         className="rounded-lg w-2/3"
@@ -52,7 +52,7 @@ const Collection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="">
+                            <div className="hover:bg-white hover:shadow-xl hover:scale-105 transition duration-500 p-3 rounded-xl">
                                 <div className="flex justify-between gap-3">
                                     <img
                                         className="rounded-lg w-2/3"
@@ -94,7 +94,7 @@ const Collection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="">
+                            <div className="hover:bg-white hover:shadow-xl hover:scale-105 transition duration-500 p-3 rounded-xl">
                                 <div className="flex justify-between gap-3">
                                     <img
                                         className="rounded-lg w-2/3"

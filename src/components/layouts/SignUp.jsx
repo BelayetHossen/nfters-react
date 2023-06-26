@@ -11,7 +11,7 @@ const SignUp = () => {
 
                             <div className="md:w-1/2 flex items-center gap-14">
                                 <div className="flex flex-col gap-14 w-1/2">
-                                    <div className="relative">
+                                    <div className="relative hover:scale-105 transition duration-500">
                                         <img
                                             className="w-96 rounded-lg"
                                             src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"
@@ -23,7 +23,7 @@ const SignUp = () => {
                                             alt="nature image"
                                         />
                                     </div>
-                                    <div className="relative">
+                                    <div className="relative hover:scale-105 transition duration-500">
                                         <img
                                             className="w-[200px] rounded-lg float-right"
                                             src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"
@@ -39,7 +39,7 @@ const SignUp = () => {
                                 </div>
 
                                 <div className="w-1/2">
-                                    <div className="relative">
+                                    <div className="relative hover:scale-105 transition duration-500">
                                         <img
                                             className="w-96 rounded-lg"
                                             src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"

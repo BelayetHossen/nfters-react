@@ -8,8 +8,8 @@ const Days7 = () => {
             <section className="">
                 <div className="py-20">
                     <div className="container mx-auto md:px-14 px-4">
-                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            <div className="">
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div className="hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                 <img
                                     className="w-full rounded-lg"
                                     src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"
@@ -38,9 +38,9 @@ const Days7 = () => {
                                 </div>
                             </div>
 
-                            <div className="flex flex-col gap-10 w-full">
+                            <div className="flex flex-col gap-6 w-full">
 
-                                <div className="flex justify-between gap-6">
+                                <div className="flex justify-between gap-6 hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                     <div className="w-1/3">
                                         <img
                                             className="w-full rounded-lg"
@@ -67,7 +67,7 @@ const Days7 = () => {
                                         <Button className="rounded-full bg-blue-900 w-28" variant="filled" size="sm">Place a bid</Button>
                                     </div>
                                 </div>
-                                <div className="flex justify-between gap-6">
+                                <div className="flex justify-between gap-6 hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                     <div className="w-1/3">
                                         <img
                                             className="w-full rounded-lg"
@@ -94,7 +94,7 @@ const Days7 = () => {
                                         <Button className="rounded-full bg-blue-900 w-28" variant="filled" size="sm">Place a bid</Button>
                                     </div>
                                 </div>
-                                <div className="flex justify-between gap-6">
+                                <div className="flex justify-between gap-6 hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                     <div className="w-1/3">
                                         <img
                                             className="w-full rounded-lg"
@@ -132,9 +132,9 @@ const Days7 = () => {
                                         <h4 className="text-lg font-extrabold uppercase">Top Collections over</h4>
                                         <p className="font-bold text-purple-600">Last 7 days</p>
                                     </div>
-                                    <div className="flex flex-col gap-3">
+                                    <div className="flex flex-col gap-2">
 
-                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3">
+                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3 hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                             <span className="font-extrabold text-xl">1</span>
 
                                             <img
@@ -162,7 +162,7 @@ const Days7 = () => {
                                             </div>
                                             <span className="font-bold text-2xl text-teal-500">+26.52%</span>
                                         </div>
-                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3">
+                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3 hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                             <span className="font-extrabold text-xl">2</span>
                                             <img
                                                 className="w-14 h-14 rounded-full"
@@ -178,7 +178,7 @@ const Days7 = () => {
                                             </div>
                                             <span className="font-bold text-2xl text-red-500">+10.52%</span>
                                         </div>
-                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3">
+                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3 hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                             <span className="font-extrabold text-xl">3</span>
                                             <img
                                                 className="w-14 h-14 rounded-full"
@@ -195,7 +195,7 @@ const Days7 = () => {
                                             <span className="font-bold text-2xl text-teal-500">+2.52%</span>
                                         </div>
 
-                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3">
+                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3 hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                             <span className="font-extrabold text-xl">4</span>
 
                                             <img
@@ -223,7 +223,7 @@ const Days7 = () => {
                                             </div>
                                             <span className="font-bold text-2xl text-teal-500">+1.52%</span>
                                         </div>
-                                        <div className="flex items-center justify-between gap-6">
+                                        <div className="flex items-center justify-between gap-6 hover:bg-white hover:shadow-xl hover:scale-95 transition duration-500 p-2 rounded-xl">
                                             <span className="font-extrabold text-xl">5</span>
                                             <img
                                                 className="w-14 h-14 rounded-full"
