@@ -55,7 +55,7 @@ const SignUp = () => {
 
                             </div>
 
-                            <div className="flex flex-col w-full md:w-1/2 justify-center items-start">
+                            <div className="flex flex-col w-full md:w-1/2 justify-center items-start lg:ml-10">
                                 <h2 className="text-3xl md:text-4xl leading-relaxed md:leading-snug mb-2 uppercase font-extrabold w-96">
                                     Create and sell your NFTs
                                 </h2>
