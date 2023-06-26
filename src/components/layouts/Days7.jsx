@@ -8,8 +8,8 @@ const Days7 = () => {
             <section className="">
                 <div className="py-20">
                     <div className="container mx-auto md:px-14 px-4">
-                        <div className="flex flex-col md:flex-row gap-14">
-                            <div className="w-1/3">
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div className="">
                                 <img
                                     className="w-full rounded-lg"
                                     src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"
@@ -38,7 +38,7 @@ const Days7 = () => {
                                 </div>
                             </div>
 
-                            <div className="flex flex-col gap-10 w-1/3">
+                            <div className="flex flex-col gap-10 w-full">
 
                                 <div className="flex justify-between gap-6">
                                     <div className="w-1/3">
@@ -125,25 +125,31 @@ const Days7 = () => {
                             </div>
 
 
-                            <div className="w-1/3 border-s-2 pl-8">
+                            <div className="border-s-2 pl-8">
 
                                 <div className="">
                                     <div className="mb-4">
                                         <h4 className="text-lg font-extrabold uppercase">Top Collections over</h4>
                                         <p className="font-bold text-purple-600">Last 7 days</p>
                                     </div>
-                                    <div className="flex flex-col gap-5">
+                                    <div className="flex flex-col gap-3">
 
-                                        <div className="flex items-center justify-between gap-6">
+                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3">
                                             <span className="font-extrabold text-xl">1</span>
 
-                                            <div className="relative">
+                                            <img
+                                                className="w-14 h-14 rounded-full block md:hidden"
+                                                src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"
+                                                alt="nature image"
+                                            />
+
+                                            <div className="relative hidden md:block">
                                                 <img
                                                     className="w-14 h-14 rounded-full"
                                                     src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"
                                                     alt="nature image"
                                                 />
-                                                <PiSealCheck className="h-5 w-5 absolute -top-1 -right-1 bg-blue-600 rounded-full text-white" />
+                                                <PiSealCheck className="h-5 w-5 absolute -top-1 -right-1 bg-blue-600 rounded-full text-white " />
                                             </div>
 
 
@@ -156,7 +162,7 @@ const Days7 = () => {
                                             </div>
                                             <span className="font-bold text-2xl text-teal-500">+26.52%</span>
                                         </div>
-                                        <div className="flex items-center justify-between gap-6">
+                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3">
                                             <span className="font-extrabold text-xl">2</span>
                                             <img
                                                 className="w-14 h-14 rounded-full"
@@ -172,7 +178,7 @@ const Days7 = () => {
                                             </div>
                                             <span className="font-bold text-2xl text-red-500">+10.52%</span>
                                         </div>
-                                        <div className="flex items-center justify-between gap-6">
+                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3">
                                             <span className="font-extrabold text-xl">3</span>
                                             <img
                                                 className="w-14 h-14 rounded-full"
@@ -189,16 +195,22 @@ const Days7 = () => {
                                             <span className="font-bold text-2xl text-teal-500">+2.52%</span>
                                         </div>
 
-                                        <div className="flex items-center justify-between gap-6">
+                                        <div className="flex items-center justify-between gap-6 border-b-2 pb-3">
                                             <span className="font-extrabold text-xl">4</span>
 
-                                            <div className="relative">
+                                            <img
+                                                className="w-14 h-14 rounded-full block md:hidden"
+                                                src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"
+                                                alt="nature image"
+                                            />
+
+                                            <div className="relative hidden md:block">
                                                 <img
                                                     className="w-14 h-14 rounded-full"
                                                     src="https://media.phillyvoice.com/media/images/120522_Lensa_AI.width-696.jpg"
                                                     alt="nature image"
                                                 />
-                                                <PiSealCheck className="h-5 w-5 absolute -top-1 -right-1 bg-blue-600 rounded-full text-white" />
+                                                <PiSealCheck className="h-5 w-5 absolute -top-1 -right-1 bg-blue-600 rounded-full text-white " />
                                             </div>
 
 

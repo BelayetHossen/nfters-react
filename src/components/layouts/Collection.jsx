@@ -8,9 +8,9 @@ const Collection = () => {
                 <div className="py-16">
                     <div className="container mx-auto md:px-14 px-4">
                         <h3 className="text-2xl font-extrabold uppercase mb-8">Collection Featured NFTs</h3>
-                        <div className="flex flex-col md:flex-row gap-10">
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-                            <div className="w-1/3">
+                            <div className="">
                                 <div className="flex justify-between gap-3">
                                     <img
                                         className="rounded-lg w-2/3"
@@ -52,7 +52,7 @@ const Collection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-1/3">
+                            <div className="">
                                 <div className="flex justify-between gap-3">
                                     <img
                                         className="rounded-lg w-2/3"
@@ -94,7 +94,7 @@ const Collection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-1/3">
+                            <div className="">
                                 <div className="flex justify-between gap-3">
                                     <img
                                         className="rounded-lg w-2/3"
